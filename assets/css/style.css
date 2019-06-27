@@ -96,7 +96,8 @@ p:last-child {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: 'Varela Round', sans-serif;
   font-weight: 700;
   color: #567572ff;
@@ -109,6 +110,13 @@ h3 {
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eeeeee;
+}
+
+h4 {
+  font-size: 22px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
 }
 
 h1 {
@@ -155,12 +163,38 @@ h1 {
 .pic {
   width: 200px;
   height: auto;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.pic2 {
+  width: 200px;
+  height: auto;
+  margin-left: 170px;
+}
+
+.pic3 {
+  width: 200px;
+  height: auto;
 }
 
 #email {
     text-align: center;
+}
+
+#linked {
+    text-align: center;
+    margin-left: 225px;
+}
+
+#numb {
+    text-align: center;
+    margin-left: 15px;
+}
+
+#git {
+    text-align: center;
+    margin-right: 65px;
 }
 
 #ePic {
