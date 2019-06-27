@@ -6,6 +6,8 @@
 
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
+<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
 </head>
 
@@ -24,31 +26,21 @@
   <div id="bod" class="contain">
     <article class="mainnn">
 
-
       <h1>Contact</h1>
-      <a id="resume" target="_blank" href="./assets/techResumeF.pdf">View Resume</a>
 
-      <form id="contactMe">
+      <div class="fl w-third" id="resume">
+        <a target="_blank" href="./assets/techResumeF.pdf">
+          <img class="pic" src="https://ancorp.com/wp-content/uploads/2019/05/resume-icon-16.png"></a><h3>View Resume</h3>
+      </div>
 
-        <ul>
-          <li>
-            <label for="nameInput">Name</label>
-            <input class="nameInputBox" type="text" name="nameInput" placeholder="John Smith" required="required">
-          </li>
+      <div class="fl w-third" id="email">
+        <a href="mailto:jdvapordestiny@gmail.com" target="_top">
+          <img id="ePic" src="https://www.cattransit.com/wp-content/uploads/2010/12/email-icon.png"></a><h3>jdvapordestiny@gmail.com</h3>
+      </div>
 
-          <li>
-            <label for="emailInput">E-mail</label>
-            <input class="emailInputBox" type="email" name="emailInput" placeholder="example@gmail.com" required="required">
-          </li>
-
-          <li>
-            <label for="msgInput">Message</label>
-            <textarea name="msgInput" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-
-      </form>
+      <div class="fl w-third" id="phone">
+        <img class="pic" src="https://i.ya-webdesign.com/images/cell-clipart-transparent-background-12.png"><h3>818-269-0400</h3>
+      </div>
 
     </article>
   </div>
