@@ -246,11 +246,9 @@ a:active {
 .port {
   width: 274px;
   margin: 20px 0 25px;
-  margin-left: 30px;
+  margin-left: 25px;
   position: relative;
-  float: left;
-  overflow: auto;
-  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .port img {
@@ -266,13 +264,13 @@ a:active {
   width: 89.5%;
   padding: 10px;
   border-bottom: 0;
-  color: #ffffff;
+  color: #9ed9ccff;
   text-align: center;
   margin-bottom: 0;
   margin-left: 2px;
   font-weight: 300;
   line-height: 30px;
-  background: #4aaaa5;
+  background: #184a45ff;
 }
 
 #meh {
