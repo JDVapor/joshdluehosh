@@ -1,2 +1,3 @@
-# JDVapor.github.io
+joshdluehosh.com
+
 Portfolio
