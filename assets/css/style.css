@@ -170,14 +170,14 @@ h1 {
 .pic {
   width: 150px;
   height: auto;
-  margin-left: 45px;
-  margin-right: 40px;
+  margin-left: 65px;
+  margin-right: 35px;
 }
 
 .pic2 {
   width: 150px;
   height: auto;
-  margin-left: 180px;
+  margin-left: 40px;
 }
 
 .pic3 {
@@ -192,12 +192,12 @@ h1 {
 
 #linked {
     text-align: center;
-    margin-left: 210px;
+    margin-right: 35px;
 }
 
 #numb {
     text-align: center;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 #git {
