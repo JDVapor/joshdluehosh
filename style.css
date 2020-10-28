@@ -189,7 +189,8 @@ body {
 }
 
 #gameLink {
-  margin-left: 250px;
-  margin-top: 50px;
+  margin-left: 45px;
+  margin-top: 45px;
+  margin-bottom: 10px;
   font-size: 22px;
 }
