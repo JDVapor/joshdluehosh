@@ -1,0 +1,47 @@
+2021-05-25T03:51:01.501460000 0.014521s notice: Recursively removing directory /Users/jdvapor/Documents/MMORPGMV/MMORPGMaker-MV/server/rethinkdb_data/tmp
+2021-05-25T03:51:01.505530000 0.018597s notice: Initializing directory /Users/jdvapor/Documents/MMORPGMV/MMORPGMaker-MV/server/rethinkdb_data
+2021-05-25T03:51:01.505723000 0.018784s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/jdvapor/Documents/MMORPGMV/MMORPGMaker-MV/server/rethinkdb_data' did not already exist or is empty.)
+2021-05-25T03:51:01.505771000 0.018832s notice: Running rethinkdb 2.4.1 (CLANG 12.0.0 (clang-1200.0.32.28))...
+2021-05-25T03:51:01.515909000 0.028971s notice: Running on Darwin 20.3.0 x86_64
+2021-05-25T03:51:01.515969000 0.029030s notice: Loading data from directory /Users/jdvapor/Documents/MMORPGMV/MMORPGMaker-MV/server/rethinkdb_data
+2021-05-25T03:51:01.780651000 0.293716s info: Automatically using cache size of 6140 MB
+2021-05-25T03:51:01.781221000 0.294287s notice: Listening for intracluster connections on port 29015
+2021-05-25T03:51:01.782652000 0.295717s notice: Listening for client driver connections on port 28015
+2021-05-25T03:51:01.782697000 0.295762s notice: Listening for administrative HTTP connections on port 8080
+2021-05-25T03:51:01.782701000 0.295766s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-05-25T03:51:01.782704000 0.295769s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-05-25T03:51:01.782707000 0.295772s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-05-25T03:51:01.782710000 0.295775s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-05-25T03:51:01.782713000 0.295778s notice: Server ready, "Joshs_MBP_kf4" 3bc3011a-a543-4f67-81f6-8a57d878df15
+2021-05-25T03:51:13.898433000 12.411684s info: Table be607e35-46c6-4e0a-afa7-d085dfbd2387: Starting a new Raft election for term 1.
+2021-05-25T03:51:13.898763000 12.412014s info: Table be607e35-46c6-4e0a-afa7-d085dfbd2387: Added replica on this server.
+2021-05-25T03:51:13.898769000 12.412019s info: Table e933546d-8caf-41ec-801e-6adbb8710c02: Starting a new Raft election for term 1.
+2021-05-25T03:51:13.898899000 12.412150s info: Table e933546d-8caf-41ec-801e-6adbb8710c02: Added replica on this server.
+2021-05-25T03:51:13.921908000 12.435160s info: Table 7a649f5d-6d04-4733-8c88-c9addc0e4216: Starting a new Raft election for term 1.
+2021-05-25T03:51:13.922193000 12.435444s info: Table 7a649f5d-6d04-4733-8c88-c9addc0e4216: Added replica on this server.
+2021-05-25T03:51:13.975522000 12.488774s info: Table be607e35-46c6-4e0a-afa7-d085dfbd2387: This server is Raft leader for term 1. Latest log index is 0.
+2021-05-25T03:51:14.027691000 12.540944s info: Table e933546d-8caf-41ec-801e-6adbb8710c02: This server is Raft leader for term 1. Latest log index is 0.
+2021-05-25T03:51:14.078430000 12.591684s info: Table 7a649f5d-6d04-4733-8c88-c9addc0e4216: This server is Raft leader for term 1. Latest log index is 0.
+2021-05-25T05:06:44.369403000 4542.951897s notice: Server got SIGINT from pid 18050, uid 501; shutting down...
+2021-05-25T05:06:44.369588000 4542.952081s notice: Shutting down client connections...
+2021-05-25T05:06:44.369660000 4542.952154s notice: All client connections closed.
+2021-05-25T05:06:44.369663000 4542.952157s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-05-25T05:06:44.374559000 4542.957053s notice: Storage engine shut down.
+2021-05-25T05:07:18.799090000 0.013694s notice: Running rethinkdb 2.4.1 (CLANG 12.0.0 (clang-1200.0.32.28))...
+2021-05-25T05:07:18.808710000 0.023312s notice: Running on Darwin 20.3.0 x86_64
+2021-05-25T05:07:18.808779000 0.023379s notice: Loading data from directory /Users/jdvapor/Documents/MMORPGMV/MMORPGMaker-MV/server/rethinkdb_data
+2021-05-25T05:07:18.868862000 0.083463s info: Automatically using cache size of 5230 MB
+2021-05-25T05:07:18.869324000 0.083925s notice: Listening for intracluster connections on port 29015
+2021-05-25T05:07:18.908678000 0.123280s notice: Listening for client driver connections on port 28015
+2021-05-25T05:07:18.908722000 0.123324s notice: Listening for administrative HTTP connections on port 8080
+2021-05-25T05:07:18.908727000 0.123329s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-05-25T05:07:18.908729000 0.123331s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-05-25T05:07:18.908777000 0.123379s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-05-25T05:07:18.908779000 0.123381s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-05-25T05:07:18.908781000 0.123383s notice: Server ready, "Joshs_MBP_kf4" 3bc3011a-a543-4f67-81f6-8a57d878df15
+2021-05-25T05:07:19.975259000 1.189877s info: Table be607e35-46c6-4e0a-afa7-d085dfbd2387: Starting a new Raft election for term 2.
+2021-05-25T05:07:19.995353000 1.209972s info: Table 7a649f5d-6d04-4733-8c88-c9addc0e4216: Starting a new Raft election for term 2.
+2021-05-25T05:07:20.027058000 1.241677s info: Table be607e35-46c6-4e0a-afa7-d085dfbd2387: This server is Raft leader for term 2. Latest log index is 3.
+2021-05-25T05:07:20.078127000 1.292747s info: Table 7a649f5d-6d04-4733-8c88-c9addc0e4216: This server is Raft leader for term 2. Latest log index is 3.
+2021-05-25T05:07:20.154653000 1.369274s info: Table e933546d-8caf-41ec-801e-6adbb8710c02: Starting a new Raft election for term 2.
+2021-05-25T05:07:20.306926000 1.521549s info: Table e933546d-8caf-41ec-801e-6adbb8710c02: This server is Raft leader for term 2. Latest log index is 3.
