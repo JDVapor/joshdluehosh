@@ -13,7 +13,7 @@
   <div class="overlay"></div>
   <div class="container">
     <div class="row register_row">
-    
+
       <div class="col s12 m6" style="float: none; margin: 0 auto; box-sizing: border-box;">
         <div class="card" style="margin: 0;">
           <div class="card-image">
@@ -82,7 +82,7 @@
       }
 
       isFormValid = true; // We first say the form is valid
-      // Then if it's not, do the followings : 
+      // Then if it's not, do the followings :
       if (!userField || !userField.value || !isValidUsername(userField.value) ) { // No username or not valid
         isFormValid = false;
         document.getElementById('usernameformat').style.color = 'red';
@@ -98,11 +98,11 @@
 
       registerBtn.disabled = !isFormValid; // If form is not valid, disable Register button.
     };
-    
+
     const register = (username,password) => {
-      const domain = 'http://localhost:8097'; // TODO : Set your own server (domain name + port, ex : http://mynew.mmo:8097/ )
+      const domain = 'http://192.168.50.96:8097'; // TODO : Set your own server (domain name + port, ex : http://mynew.mmo:8097/ )
       const socket = io.connect(domain);
-      // Setting up UI behavior : 
+      // Setting up UI behavior :
       socket.on('login_error', (data,callback) => { // Display UI error when server returns any
         if (data) {
           document.getElementById('serverResponseZone').innerHTML = data.msg;
@@ -118,7 +118,7 @@
           registerBtn.style.display = 'none';
         }
       });
-      // Run the registration, passing username and password as payload. 
+      // Run the registration, passing username and password as payload.
       socket.emit('register', {username, password});
     };
 
