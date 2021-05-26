@@ -115,3 +115,26 @@
 2021-05-25T22:21:01.738630000 1228.553499s notice: All client connections closed.
 2021-05-25T22:21:01.738634000 1228.553503s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2021-05-25T22:21:01.744399000 1228.559268s notice: Storage engine shut down.
+2021-05-25T22:23:19.334112000 0.012602s notice: Running rethinkdb 2.4.1 (CLANG 12.0.0 (clang-1200.0.32.28))...
+2021-05-25T22:23:19.345756000 0.024244s notice: Running on Darwin 20.3.0 x86_64
+2021-05-25T22:23:19.345816000 0.024303s notice: Loading data from directory /Users/jdvapor/Documents/portfolio/joshdluehosh/MMORPGMaker-MV/www/server/rethinkdb_data
+2021-05-25T22:23:19.403921000 0.082409s info: Automatically using cache size of 9726 MB
+2021-05-25T22:23:19.404459000 0.082946s notice: Listening for intracluster connections on port 29015
+2021-05-25T22:23:19.455558000 0.134047s notice: Listening for client driver connections on port 28015
+2021-05-25T22:23:19.455606000 0.134095s notice: Listening for administrative HTTP connections on port 8080
+2021-05-25T22:23:19.455609000 0.134098s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-05-25T22:23:19.455611000 0.134100s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-05-25T22:23:19.455681000 0.134170s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-05-25T22:23:19.455683000 0.134171s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-05-25T22:23:19.455685000 0.134173s notice: Server ready, "Joshs_MBP_kf4" 3bc3011a-a543-4f67-81f6-8a57d878df15
+2021-05-25T22:23:20.630720000 1.309227s info: Table e933546d-8caf-41ec-801e-6adbb8710c02: Starting a new Raft election for term 6.
+2021-05-25T22:23:20.681358000 1.359865s info: Table e933546d-8caf-41ec-801e-6adbb8710c02: This server is Raft leader for term 6. Latest log index is 19.
+2021-05-25T22:23:20.848162000 1.526672s info: Table be607e35-46c6-4e0a-afa7-d085dfbd2387: Starting a new Raft election for term 6.
+2021-05-25T22:23:20.880011000 1.558521s info: Table 7a649f5d-6d04-4733-8c88-c9addc0e4216: Starting a new Raft election for term 6.
+2021-05-25T22:23:20.893680000 1.572190s info: Table be607e35-46c6-4e0a-afa7-d085dfbd2387: This server is Raft leader for term 6. Latest log index is 19.
+2021-05-25T22:23:20.943648000 1.622159s info: Table 7a649f5d-6d04-4733-8c88-c9addc0e4216: This server is Raft leader for term 6. Latest log index is 19.
+2021-05-25T22:44:58.767225000 1299.465149s notice: Server got SIGINT from pid 18050, uid 501; shutting down...
+2021-05-25T22:44:58.767371000 1299.465296s notice: Shutting down client connections...
+2021-05-25T22:44:58.767432000 1299.465356s notice: All client connections closed.
+2021-05-25T22:44:58.767435000 1299.465359s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-05-25T22:44:58.773030000 1299.470954s notice: Storage engine shut down.
