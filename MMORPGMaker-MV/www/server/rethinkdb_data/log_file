@@ -225,3 +225,8 @@
 2021-05-25T23:35:03.482800000 1.311220s info: Table e933546d-8caf-41ec-801e-6adbb8710c02: This server is Raft leader for term 10. Latest log index is 35.
 2021-05-25T23:35:03.683501000 1.511925s info: Table 7a649f5d-6d04-4733-8c88-c9addc0e4216: Starting a new Raft election for term 10.
 2021-05-25T23:35:03.788791000 1.617216s info: Table 7a649f5d-6d04-4733-8c88-c9addc0e4216: This server is Raft leader for term 10. Latest log index is 35.
+2021-05-26T00:42:11.219346000 3904.859984s notice: Server got SIGINT from pid 18050, uid 501; shutting down...
+2021-05-26T00:42:11.219493000 3904.860132s notice: Shutting down client connections...
+2021-05-26T00:42:11.219551000 3904.860189s notice: All client connections closed.
+2021-05-26T00:42:11.219554000 3904.860192s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-05-26T00:42:11.224129000 3904.864768s notice: Storage engine shut down.
