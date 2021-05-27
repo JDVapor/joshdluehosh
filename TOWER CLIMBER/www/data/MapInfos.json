@@ -1,0 +1,21 @@
+[
+null,
+{"id":1,"expanded":true,"name":"WORLD","order":1,"parentId":0,"scrollX":1139,"scrollY":633},
+{"id":2,"expanded":true,"name":"TOWER01","order":2,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":3,"expanded":false,"name":"INTRO","order":17,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":4,"expanded":true,"name":"TOWER02","order":3,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":5,"expanded":true,"name":"TOWER03","order":4,"parentId":1,"scrollX":1139,"scrollY":633},
+{"id":6,"expanded":true,"name":"LOUNGE01","order":5,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":7,"expanded":true,"name":"TOWER05","order":7,"parentId":1,"scrollX":1137,"scrollY":627},
+{"id":8,"expanded":false,"name":"EVENT STORAGE","order":18,"parentId":0,"scrollX":1137,"scrollY":627},
+{"id":9,"expanded":true,"name":"TOWER04","order":6,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":10,"expanded":true,"name":"TOWER06","order":8,"parentId":1,"scrollX":1137,"scrollY":627},
+{"id":11,"expanded":true,"name":"TOWER07","order":9,"parentId":1,"scrollX":1137,"scrollY":627},
+{"id":12,"expanded":true,"name":"LOUNGE02","order":10,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":13,"expanded":true,"name":"TOWER08","order":11,"parentId":1,"scrollX":1139,"scrollY":633},
+{"id":14,"expanded":true,"name":"TOWER09","order":12,"parentId":1,"scrollX":1137,"scrollY":627},
+{"id":15,"expanded":true,"name":"Boss Lounge","order":13,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":16,"expanded":true,"name":"TOWER10","order":14,"parentId":1,"scrollX":1139,"scrollY":633},
+{"id":17,"expanded":true,"name":"TOWER11","order":15,"parentId":1,"scrollX":1137,"scrollY":627},
+{"id":18,"expanded":true,"name":"TOWER12","order":16,"parentId":1,"scrollX":1139,"scrollY":633}
+]
