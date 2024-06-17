@@ -24,6 +24,11 @@ body {
   padding: 10px;
 }
 
+#meh {
+  width: auto;
+  height: 300px;
+}
+
 #msg:placeholder {
   color: #436e70;
 }
