@@ -153,7 +153,7 @@ h1 {
 }
 
 #nameee {
-  width: 425px;
+  width: 250px;
   height: 90px;
   font-size: 40px;
   font-weight: 600;
@@ -285,8 +285,8 @@ a:active {
   border: 2px solid #cccccc;
   border-radius: 10px;
   float: left;
-  width: 250px;
-  height: auto;
+  width: auto;
+  height: 300px;
   margin-top: 10px;
   margin-right: 30px;
   margin-bottom: 12px;
