@@ -56,25 +56,15 @@ body {
   color: #3b444b;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 li {
   background-color: #184a45ff;
   border-radius: 15px;
   text-align: center;
   margin-bottom: 5px;
-}
-
-.flex-container {
-  display: flex;
-}
-
-.flex-container > div {
-  font-size: 15px;
-  padding: 10px;
-  margin-left: 5px;
 }
 
 header {
@@ -90,7 +80,7 @@ header {
 
 .contain {
   width: 100%;
-  max-width: 960px;
+  max-width: fit-content;
   margin: 0 auto;
   clear: both;
 }
@@ -131,7 +121,6 @@ h3 {
 
 h4 {
   font-size: 22px;
-  padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
 }
@@ -148,13 +137,24 @@ h1 {
   background-color: #b0b8b4ff;
   border: 1px solid #dddddd;
   width: 100%;
-  max-width: 960px;
+  max-width: fit-content;
   margin: 0 0 35px;
   padding: 20px;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  font-size: 15px;
+  padding: 10px;
+  margin-left: 5px;
+}
+
 #bod {
   padding-top: 130px;
+  max-width: fit-content;
   min-height: calc(100vh - 100px);
 }
 
@@ -178,7 +178,7 @@ h1 {
 }
 
 .pic {
-  width: 175px;
+  width: 300px;
   height: auto;
 }
 
@@ -301,6 +301,7 @@ a:active {
 
 #p1 {
   padding-top: 15px;
+  max-width: 1080px;
 }
 
 .ba {
@@ -410,6 +411,7 @@ footer {
 
   #bod {
     width: 91%;
+    max-width: fit-content;
     margin: 0% 4%;
   }
 
