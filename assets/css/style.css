@@ -67,6 +67,16 @@ li {
   margin-bottom: 5px;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  font-size: 15px;
+  padding: 10px;
+  margin-left: 5px;
+}
+
 header {
   position: fixed;
   overflow: auto;
@@ -170,8 +180,6 @@ h1 {
 .pic {
   width: 150px;
   height: auto;
-  margin-left: 65px;
-  margin-right: 35px;
 }
 
 .pic2 {
@@ -197,7 +205,6 @@ h1 {
 
 #numb {
     text-align: center;
-    margin-left: 30px;
 }
 
 #git {
@@ -206,10 +213,10 @@ h1 {
 }
 
 #ePic {
-  width: 150px;
+  align-content: center;
+  width: 125px;
   height: auto;
-  margin-left: 55px;
-  margin-right: 50px;
+
 }
 
 #phone {
